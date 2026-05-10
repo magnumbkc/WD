@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Even Odd Checker</title>
+
+    <style>
+
+        body{
+            text-align:center;
+            background-color: lightblue;
+        }
+
+        .even{
+            background-color: lightgreen;
+            padding:10px;
+        }
+
+        .odd{
+            background-color: pink;
+            padding:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Even Odd Checker</h2>
+
+    <form method="POST">
+
+        Enter Number:
+
+        <input type="text" name="num">
+
+        <br><br>
+
+        <input type="submit"
+               name="submit"
+               value="Check">
+
+    </form>
+
+    <br>
+
+    <?php
+
+    if(isset($_POST["submit"])){
+
+        $num = $_POST["num"];
+
+        if($num % 2 == 0){
+
+            echo "<div class='even'>
+                  Number is Even
+                  </div>";
+        }
+
+        else{
+
+            echo "<div class='odd'>
+                  Number is Odd
+                  </div>";
+        }
+    }
+
+    ?>
+
+</body>
+
+</html>
