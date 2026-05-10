@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Addition
+        </title>
+    </head>
+    <body align="center">
+        <h2>Addition of two numbers </h2>
+        Number 1:<input type="text" id="num1"><br><br>
+        Number 2:<input type="text" id="num2"><br><br>
+        <button onclick="add()" style="background-color:green; padding:20px; font-size:30px; border:5px solid black; border-radius:5px;" >
+             ADD </button>
+             <h3 id="result"></h3>
+
+             <script>
+                
+                function add(){
+                let num1= parseInt(document.getElementById("num1").value);
+                let num2 = parseInt(document.getElementById("num2").value);
+                let sum =0;
+                    sum = num1 + num2;
+                    document.getElementById("result").innerHTML= "RESULT : " + sum;
+                }
+             </script>
+    </body>
+</html>

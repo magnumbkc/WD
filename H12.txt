@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>My Hobbies</title>
+
+</head>
+
+<body style="background-color: lightyellow;" align="center">
+
+    <h1 align="center">My Hobbies</h1>
+
+    <p>
+
+        <strong>Gaming</strong> is my favorite hobby.
+        
+        <br><br>
+
+        I also enjoy <em>watching movies</em>.
+        
+        <br><br>
+
+        <mark>Coding</mark> helps me improve my skills.
+        
+        <br><br>
+
+        I have <del>stopped</del> wasting time on mobile games.
+
+    </p>
+
+</body>
+
+</html>

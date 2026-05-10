@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Links
+        </title>
+        <style>
+            h2{
+                background-color: lightblue;
+                text-align: center;
+                padding:10px;
+                border:2px solid black;
+            }
+            body{
+                background-color: beige;
+            }
+            a:link{
+                color:black;
+            }
+            a:visited{
+                color:green;
+            }
+            a:hover{
+                color:blue;
+
+            }
+            a:active{
+                color:purple;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>USEFUL LINKS</h2>
+        <br>
+        <br>
+        <ul>
+            
+            <li><a href="https://google.com" target="_blank">Google link</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub link</a></li>
+            <li><a href="https://wikipedia.com" target="_blank">Wikipedia link</a></li>
+
+        </ul>
+    </body>
+</html>

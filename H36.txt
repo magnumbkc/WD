@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>
+            login page
+        </title>
+        <style>
+            body{
+                text-align:center;
+                background-color:lightblue;
+                font-size:30px;
+            }
+            h2{
+                border:5px solid black;
+                border-radius:10px;
+                font-size:25px;
+                text-align:center;
+                background-color:grey;
+                padding:20px;
+                width:80%;
+                margin:auto;
+                margin-top:10px;
+                
+                
+            }
+            .card{
+                text-align:center;
+                width:60%;
+                height:auto;
+                background-color:beige;
+                border:7px solid black;
+                border-radius:20px;
+                margin:auto;
+
+            }
+
+            button{
+                background-color:lightgreen;
+                padding:10px;
+                border:5px dark green;
+                border-radius:10px;
+                margin-bottom:20px;
+            }
+
+            .success{
+                background-color:green;
+                font-size:50px;
+
+            }
+            .error{
+                background-color:red;
+                font-size:50px;
+                font-color:solid black;
+            }
+            form{
+                margin:auto;
+                margin-top:20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="card">
+            <h2>Login From</h2>
+            <form action="" method="POST">
+                Enter Your Username
+                <br>
+                <input type="text" name="name">
+                <br><br>
+                Enter Your Password 
+                <br>
+                <input type="password" name="pass">
+                <br>
+                <br>
+                <button type="submit" name="submit" value="submit">Procced</button>
+                <br>
+            </form>
+        </div>
+        <?php
+            if(isset($_POST["submit"])){
+                $u = $_POST["name"];
+                $p = $_POST["pass"];
+                if($u == "admin" && $p == "12345"){
+                    echo "<h3 class='success'>Login Success</h3>";
+                }else{
+                    echo "<h3 class='error'>Login Error</h3>";
+                }
+            }
+        ?>
+    </body>
+</html>

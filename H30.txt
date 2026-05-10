@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            POST METHOD 
+        </title>
+    </head>
+    <body align="center">
+        <h2>
+            post form method
+        </h2><br><form method="POST" action="">
+        Enter your name:
+        <input type="text" name="name"><br><br>
+        <input type="submit" value="submit"><br><br>
+    </form>
+        <?php
+            if($_SERVER["REQUEST_METHOD"] == "POST"){
+                $name = $_POST["name"];
+                echo "Hello " . $name;
+            }
+?>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            colors list in php
+        </title>
+    </head>
+    <body>
+        <h2 align="center">
+            Array of colors in php
+        </h2>
+        <ul>
+        <?php
+            $colors = array("red","green","blue");
+
+            foreach($colors as $c){
+                echo "<li>$c</li>";
+            }
+            ?>
+            </ul>
+    </body>
+</html>

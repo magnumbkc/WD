@@ -1,0 +1,34 @@
+<html>
+        <title>
+            Course list
+        </title>
+        <head >
+                <h3 align="center">Engg Course List</h3>
+        </head>
+        <body >
+            <div align="center"
+            <ul style=" text-align:center;">
+                <li>Web development</li>
+                <li>Database management system</li>
+                <li>Java 
+                    <table border="3px" cellpadding="10px" style=" border-collapse: collapse; " align="center">
+
+                        <tr>
+                            <th>type</th>
+                            <th>marks</th>
+                        </tr>
+                        <tr>
+                            <td>theory</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>practical</td>
+                            <td>30</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div>
+        </body>
+    
+</html>

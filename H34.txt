@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            subjects
+        </title>
+        <style>
+
+            body{
+                background-color:lightblue;
+                text-align:center;
+                
+            }
+            h2{
+                background-color:beige;
+                text-align:center;
+                border:3px solid black;
+                border-radius:15px;
+                padding:20px;
+            }
+            table{
+                border-collapse:collapse;
+                background-color:beige;
+                margin:auto;
+                border:5px solid black;
+                
+                text-align:center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <?php
+        $marks = array(70,80,65);
+        $total = array_sum($marks);
+        $percentage = ($total / 300)*100;
+        
+        ?>
+
+        <h2> Subject details</h2>
+
+        <table border="5px" cellpadding="20px">
+
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>subject 1</td>
+                <td><?php echo $marks[0]; ?></td>
+
+            </tr>
+
+            <tr>
+                <td>subject 2</td>
+                <td><?php echo $marks[1]; ?></td>
+
+            </tr>
+
+            <tr>
+                <td>subject 3</td>
+                <td><?php echo $marks[2]; ?></td>
+
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td><?php echo $total;?></td>
+            </tr>
+            <tr>
+                <td> percentage </td>
+                <td><?php echo $percentage; ?></td>
+            </tr>
+        </table>
+    </body>
+</html>

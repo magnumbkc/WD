@@ -1,0 +1,23 @@
+<html>
+    <head><title>
+        Table
+    </title></head>
+    <body align="center">
+        
+        <h2>Table generator</h2>
+        Enter your number : <input type="text" id="num"><br><br>
+        <button onclick="table()"> Show table</button><br><br>
+        <div id="display"></div>
+
+        <script>
+            function table(){
+                let n = parseInt(document.getElementById("num").value);
+                let msg="";
+                for( let i=1;i<=10;i++){
+                    msg= msg+ n+" x "+i+" = "+(n*i)+"<br>";
+                }
+                document.getElementById("display").innerHTML=msg;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <h2><u>my favorite animal</u></h2>
+    </head>
+    <style>
+        h2{
+            color: red;
+            border: 2px solid black;
+            text-align:center;
+            background-color:lightblue;
+        }
+        body{
+            background-color:beige
+        }
+        img{
+            border:10px solid white;
+            border-radius:5px;
+            
+        }
+        a:link{
+            color:black;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:blue;
+        }
+        a:active{
+            color:black;
+        }
+        
+    </style>
+    <body align="center">
+        <img src="" 
+        width="400px" height="200px"><br>
+        <br><br>
+        <a href="https://wikipedia.org" target="_blank">
+             Click Here
+        </a>
+
+
+    </body>
+</html>

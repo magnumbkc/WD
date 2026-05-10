@@ -1,0 +1,56 @@
+<html>
+    <title>
+        details
+    </title>
+    <head>
+        <style>
+            h2{
+                text-align:center;
+                color:red;
+                backgroundcolor:yellow;
+            }
+            body{
+                
+                text-align:center;
+            }
+            table{
+                margin:auto;
+                
+
+            }
+            th,td{
+                text-align:center;
+            }
+            
+            th{
+                background-color:beige;
+
+            }
+            tr:nth-child(even){
+                background-color:gray;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>FACULTY DETAILS</h2>
+        <table border="2px" cellpadding="10px" cellspacing="5px">
+
+            <tr>
+                <th>Name</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <td>DR.sharma</td>
+                <td>sharma@gmail.com</td>
+            </tr>
+            <tr>
+                <td>prof. patil</td>
+                <td> patil@gamil.com</td>
+            </tr>
+            <tr>
+                <td> Dr. joshi</td>
+                <td> joshi@gmail.com</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <h2>
+            About Me Page
+        </h2>
+
+        <style>
+            h2{
+                text-align:center;
+                font-size:30px;
+                margin-top:20px;
+                color:red;
+                
+            }
+            p{
+                
+                font-size:15px;
+                color:green;
+
+
+            }
+            ul{
+                color:green;
+                list-style-position: inside;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        
+        <p align="center">
+            
+            <b>my profile pic </b><br>
+            <img src="img.jpg" align="center" >
+           
+            <br>
+            <br>
+            </p>
+        <p>
+            MY Name: <i>shivam dharsandiya.</i>
+            <br><br>
+            My Hobbies:
+        </p>
+
+            <ul >
+                <li ><i>gamming</i></li>
+                <li ><i>playing</i></li>
+                <li><i>watching movies</i></li>
+            </ul>
+
+        
+    
+    </body>
+</html>

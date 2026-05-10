@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Interestt cal</title>
+    </head>
+
+    <body align="center">
+        <h2>Simple Interestt Calculator</h2>
+        <form method="POST">
+
+            Enter Principal amount :
+            <input type="text" name="p">
+            <br>
+            <br>
+            Enter Interest Rate :
+            <input type="text" name="r">
+            <br>
+            <br>
+            Enter Time in years :
+            <input type="text" name="i">
+            <br><br>
+            <input type="submit" name="submit" value="submit">
+            <br><br>
+
+
+        </form>
+
+
+        <?php
+            if($_SERVER["REQUEST_METHOD"]=="POST"){
+
+                $p = $_POST["p"];
+                $r = $_POST["r"];
+                $i = $_POST["i"];
+
+                $si = ($p*$r*$i)/100;
+
+                echo " Simple Interest : " . $si;
+            }
+        
+        
+        
+        ?>
+    </body>
+</html>

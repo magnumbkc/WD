@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Reverse String</title>
+
+    <style>
+
+        body{
+            text-align:center;
+            background-color: lightblue;
+        }
+
+        form{
+            background-color:white;
+            width:300px;
+            margin:auto;
+            padding:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Reverse String Program</h2>
+
+    <form method="POST">
+
+        Enter Word:
+
+        <input type="text" name="word">
+
+        <br><br>
+
+        <input type="submit"
+               name="submit"
+               value="Reverse">
+
+    </form>
+
+    <br>
+
+    <?php
+
+    if(isset($_POST["submit"])){
+
+        $w = $_POST["word"];
+
+        $rev = strrev($w);
+
+        echo "Reverse String = " . $rev;
+    }
+
+    ?>
+
+</body>
+
+</html>

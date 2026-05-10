@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            greetings
+        </title>
+        
+    </head>
+    <body align="center" >
+        <p style="font-size:40px; font-weight:bold;" id="message"></p>
+
+        <script>
+            let time = new Date().getHours();
+            let message;
+            if (time < 12){
+                message ="Good morning";
+            }
+            else if( time > 12 && time < 18){
+                message ="Good afternoon";
+            }
+            else{
+                message ="Good evening";
+            }
+            document.getElementById("message").innerHTML = "Welcome" + ", " + message;
+        </script>
+    </body>
+</html>

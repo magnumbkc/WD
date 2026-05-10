@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Comparision
+        </title>
+    </head>
+    <body align="center">
+        <h1>Number comparison</h1><br><br>
+        <button onclick="compare()">Start</button><br><br>
+        <h3 id="demo"></h3>
+        <script>
+            function compare(){
+                let num1 = parseInt(prompt("enter first number"));
+                let num2 = parseInt(prompt("enter second number"));
+                let msg;
+
+                if  (num1 > num2){
+                    msg= num1 + " is greater number";
+                }
+                else if( num1< num2){
+                    msg = num2+ " is greater number";
+                }
+                else if (num1==num2){
+                    msg="Both number are equal";
+                }
+
+                document.getElementById("demo").innerHTML = msg;
+            }
+        </script>
+    </body>
+</html>

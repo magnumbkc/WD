@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            str lenght
+        </title>
+    </head>
+    <body align="center">
+        <h2>String lenght counter</h2>
+
+        <form action="" method="POST">
+            Enter your word:
+            <input type="text" name="word">
+            <br><br>
+            <input type="submit" value="submit"><br>
+            <br>
+        
+        </form>
+            <?php
+                if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+                $w = $_POST["word"];
+                $l = strlen($w);
+                echo " Lenght : " . $l;
+                
+
+            }
+            
+            
+            ?>
+
+
+
+        
+        
+    </body>
+</html>

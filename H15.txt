@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            counting
+        </title>
+    </head>
+    <body align="center">
+        <p style="color: black; font-size:30px;"> Click here to register your count</p>
+        <button onclick="counter()" style=" width:400px; height:100px; padding:20px; border:4px solid black; border-radius:15px; background-color: lightgreen; font-size:20px;"> <b>Click me</b></button>
+        <p id="result" style="color: red; font-size:25px;"> Your registered count is: 0</p>
+
+        <script>
+            let count=0;
+            function counter(){
+                count++;
+                document.getElementById("result").innerHTML="Your registered count is : " + count;
+            }
+        </script>
+    </body>
+</html>

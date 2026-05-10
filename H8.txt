@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Recipe
+        </title>
+        
+        <style>
+            body{
+                background-color: lightblue;
+                
+            }
+
+            .card{
+                margin:auto;
+                background-color:beige;
+                border: 2px solid black;
+                border-radius:10px;
+                box-shadow: 5px 5px 5px grey;
+                width:400px;
+                height:auto;
+                padding:20px;
+            }
+            ul,ol{
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h2>TEA Recipe</h2>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>Water</li>
+                <li>Sugar</li>
+                <li>Tea leaves</li>
+                <li>milk</li>
+                <li>ginger</li>
+            </ul>
+            <h3>Steps:</h3>
+            <ol>
+                <li>Boil water</li>
+                <li>Add tea leaves</li>
+                <li>Add sugar and milk</li>
+                <li>Simmer for 5 minutes</li>
+                <li>Strain and serve</li>
+            </ol>
+
+        </div>
+    </body>
+
+</html>

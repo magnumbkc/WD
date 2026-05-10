@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>ELIGIBILITY</title>
+    </head>
+    <body>
+         <h2>ELIGIBILITY CHECK</h2>
+         <form onsubmit="return check()">
+            Enter your age : <input type="text" id="age" ><br><br>
+            <button type="submit">submit</button>
+         </form>
+         <P id="display"></P>
+
+         <script>
+            
+            function check(){
+            let age = parseInt(document.getElementById("age").value);
+            let msg;
+            if (age >= 18){
+                msg="YOU are eligible";
+            }
+            else {
+                msg="you are not eligible";
+            }
+            document.getElementById("display").innerHTML=msg;
+            return false;
+        }
+            
+         </script>
+    </body>
+</html>
