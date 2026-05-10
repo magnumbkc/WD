@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction Card</title>
+</head>
+
+<body>
+
+<div style="background-color: lightblue; padding:20px; width:300px;">
+
+    <h2><u>Personal Introduction</u></h2>
+    <p><b>Name:</b> Magnum</p>
+    <p><b>Branch:</b> Computer Engineering</p>
+    <p><b>Hobbies:</b>
+        <i>Gaming, Coding, Music</i>
+    </p>
+
+</div>
+
+</body>
+</html>
