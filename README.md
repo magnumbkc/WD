@@ -1,4 +1,4 @@
-### H1 - Personal Introduction Card
+### H01 - Personal Introduction Card
 
 ##### Problem Statement
 Create a simple card showing your name, branch, and hobbies. Use HTML headings, paragraphs, and text formatting tags (bold, italic, underline). Style with inline CSS for background color and font.
@@ -7,7 +7,7 @@ Create a simple card showing your name, branch, and hobbies. Use HTML headings, 
 Use `<div>` with `style="background: lightblue; padding: 20px;"`. Use `<b>`, `<i>`, `<u>` tags.
 
 
-### H2 - College Name Display Page
+### H02 - College Name Display Page
 
 ##### Problem Statement
 Design a webpage with your college name as heading. Use subscript for year (e.g., `2025<sub>th</sub>`) and superscript for reference number. Apply internal CSS for center alignment and font color.
@@ -16,7 +16,7 @@ Design a webpage with your college name as heading. Use subscript for year (e.g.
 Use `<sub>` and `<sup>` tags. Internal CSS in `<style>` tag inside `<head>`.
 
 
-### H3 - Image with Caption and Link
+### H03 - Image with Caption and Link
 
 ##### Problem Statement
 Create a page showing your favorite animal image. Below image, add a hyperlink that says "Click here to know more". Use external CSS for image border and link color.
@@ -25,7 +25,7 @@ Create a page showing your favorite animal image. Below image, add a hyperlink t
 Use `<img src="..." width="200">`. Link using `<a href="#">`. External CSS file with `.css` extension.
 
 
-### H4 - Simple Time Table
+### H04 - Simple Time Table
 
 ##### Problem Statement
 Create a college timetable for 3 days (Monday, Tuesday, Wednesday) with 3 periods per day. Use HTML table with borders. Apply internal CSS for background color of days.
@@ -34,7 +34,7 @@ Create a college timetable for 3 days (Monday, Tuesday, Wednesday) with 3 period
 Use `<table border="1">`, `<tr>`, `<th>`, `<td>`. Use `background-color` in CSS.
 
 
-### H5 - Subject List with Nested Table
+### H05 - Subject List with Nested Table
 
 ##### Problem Statement
 Display "Computer Engineering Subjects" as main list. Inside one list item, show a nested table with Theory and Practical marks. Use HTML only for structure.
@@ -43,7 +43,7 @@ Display "Computer Engineering Subjects" as main list. Inside one list item, show
 Use `<ul>` or `<ol>`. Inside `<li>`, create another `<table>`.
 
 
-### H6 - Simple Registration Form (No Validation)
+### H06 - Simple Registration Form (No Validation)
 
 ##### Problem Statement
 Create a form with name, roll number, and branch. Add a submit button. No JavaScript needed. Use CSS for spacing and alignment.
@@ -52,7 +52,7 @@ Create a form with name, roll number, and branch. Add a submit button. No JavaSc
 Use `<form>`, `<input type="text">`, `<input type="submit">`. Use margin and padding in CSS.
 
 
-### H7 - About Me Page with Internal CSS
+### H07 - About Me Page with Internal CSS
 
 ##### Problem Statement
 Create an "About Me" page with your photo, name, and 3 hobbies listed. Use internal CSS for heading color and paragraph font size.
@@ -61,7 +61,7 @@ Create an "About Me" page with your photo, name, and 3 hobbies listed. Use inter
 Use `<style>` tag. Set `h1 {color: blue;}`, `p {font-size: 18px;}`.
 
 
-### H8 - Recipe Card
+### H08 - Recipe Card
 
 ##### Problem Statement
 Display a simple recipe (e.g., Tea or Sandwich). Use HTML for ingredients list (unordered list) and steps (ordered list). Use external CSS for card border and shadow.
@@ -70,7 +70,7 @@ Display a simple recipe (e.g., Tea or Sandwich). Use HTML for ingredients list (
 Card can be a `<div>` with `border`, `border-radius`, `box-shadow`.
 
 
-### H9 - Favorite Links Page
+### H09 - Favorite Links Page
 
 ##### Problem Statement
 Create a webpage showing 3 of your favorite websites as hyperlinks. Each link should open in a new tab. Use inline CSS for link colors (visited, hover).
