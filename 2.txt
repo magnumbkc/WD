@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body{
+    text-align:center;
+    color:blue;
+}
+</style>
+
+<title>College Page</title>
+
+</head>
+
+<body>
+
+<h1>MET Institute of Engineering</h1>
+
+<p>Year: 2025<sub>th</sub></p>
+
+<p>Reference No: 101<sup>A</sup></p>
+
+</body>
+</html>
