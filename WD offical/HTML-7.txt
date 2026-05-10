@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Input Example</title>
+
+    <script>
+
+        function displayData()
+        {
+            var name;
+
+            name =
+            document.getElementById("txt").value;
+
+            document.getElementById("result").innerHTML =
+            "Welcome " + name;
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h2>DOM Example</h2>
+
+    Enter Name:
+
+    <input type="text" id="txt">
+
+    <br><br>
+
+    <button onclick="displayData()">
+        Display
+    </button>
+
+    <h3 id="result"></h3>
+
+</body>
+</html>

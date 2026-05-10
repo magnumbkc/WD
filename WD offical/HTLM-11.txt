@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP String Functions</title>
+</head>
+
+<body>
+
+    <h2>PHP String Functions</h2>
+
+    <?php
+
+        $str = "Welcome Shivam";
+
+        echo "Original String : " . $str;
+
+        echo "<br><br>";
+
+        /* String Length */
+
+        echo "String Length : " . strlen($str);
+
+        echo "<br><br>";
+
+        /* String Reverse */
+
+        echo "Reverse String : " . strrev($str);
+
+        echo "<br><br>";
+
+        /* Substring */
+
+        echo "Substring : " . substr($str, 0, 7);
+
+    ?>
+
+</body>
+</html>

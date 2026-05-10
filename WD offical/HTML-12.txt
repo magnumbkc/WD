@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Foreach Loop</title>
+</head>
+
+<body>
+
+    <h2>Array using Foreach Loop</h2>
+
+    <?php
+
+        /* Array Declaration */
+
+        $students = array("Shivam", "Pranav", "Rahul", "Aman");
+
+        /* Foreach Loop */
+
+        foreach($students as $value)
+        {
+            echo $value;
+
+            echo "<br>";
+        }
+
+    ?>
+
+</body>
+</html>

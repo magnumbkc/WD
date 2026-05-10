@@ -1,0 +1,26 @@
+<html>
+	<title>
+		HTML|1
+	</title>
+	<head>
+		<marquee direction="right" height="100"><h1>THIS IS COLLEGE STUDENT  INFROMATION !!</h1></marquee>
+	</head>
+		<body bgcolor="beige" align="center">
+			<p>
+				<b>NAME : </b> Shivam Dharsandiya.<br><br>
+				<b>AGE :</b>20.<br><br>
+				<b>ROLL NO :</b>27.<br><br>
+				<b>CLASS : </b>SE.<br><br>
+				<b>DIV :</b>A.<br><br>
+				<strong>COLLEGE NAME :</strong><i> MET BKC IOE </i><br><br>
+				<u><i> this infromation ends here </i></u><br><br>
+				<p><br>
+					<i>additional infromation :</i>
+					<br>
+					<u>water</u>:<i>H<sub>2</sub>O</i><br>
+					<u>2<sup>0</sup></u>=1<br>
+				</p>
+
+			</p>
+		</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+    <title>
+        htmL|2
+    </title>
+
+    <head align="center">
+        <h2> web page  view student details</h2>
+    </head>
+
+    <body>
+        <p align="center">
+        <strong >student photo</strong><br><br>
+
+        <img src="">
+        <br>
+        </p>
+        
+        <table border="1px" align="center" cellpadding="10">
+            <th> NAME </th>
+            <th> DETAILS </th>
+            <tr>
+                <td> Shivam </td>
+                <td>
+                    <table border="1px">
+                        <tr>
+                            <th> Clg name </th>
+                            <th> City </th>
+                            <th> Document </th>
+                        </tr>
+                        <tr>
+                        <td>
+                            Met Bkc
+                        </td>
+                        <td>
+                            Nashik
+                        </td>
+                        <td>
+                            <a href="HTML-1.html"> view documnet </a>
+                        </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+        </table>
+            
+        
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+    <title>
+        HTML|4
+    </title>
+    <head>
+        <h2>implementation of css</h2>
+        <style>
+            h2{
+                color:red;
+                text-align:center;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p  style="color:yellow; text-align:center;"> students details table </p>
+        <table align=center style="background-color: beige; border: 1px solid black ;" cellpadding=10px>
+            <tr style="border: 1px solid black">
+                <th>NAME</th>
+                <th>ROLL NO</th>
+                <th>CITY</th>
+            </tr>
+            <tr style="border: 1px solid black">
+                <td>shivam</td>
+                <td>27</td>
+                <td>nashik</td>
+            </tr>
+            <tr style="border: 1px solid black">
+                <td>pranav</td>
+                <td>37</td>
+                <td>nashik</td>
+            </tr>
+            <tr style="border: 1px solid black">
+                <td>akash</td>
+                <td>29</td>
+                <td>nashik</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+
+style.css
+
+body{
+    background-color:antiquewhite;
+    text-align:center;
+
+}
+
+td,th{
+    border:1px solid black;
+    padding:25px;
+}

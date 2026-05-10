@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Welcome Program</title>
+</head>
+
+<body>
+
+    <h2>
+        <?php
+
+            echo "Welcome to PHP Programming";
+
+        ?>
+    </h2>
+
+    <h3>
+        <?php
+
+            echo "Current Date : " . date("d-m-Y");
+
+            echo "<br><br>";
+
+            echo "Current Time : " . date("h:i:s A");
+
+        ?>
+    </h3>
+
+</body>
+</html>
